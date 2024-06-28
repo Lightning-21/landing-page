@@ -38,3 +38,19 @@ ul {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+.preface {
+    display: flex;
+    padding: 75px 0;
+    justify-content: space-between;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+}
+
+.main {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: bolder;
+}
