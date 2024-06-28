@@ -47,10 +47,16 @@ ul {
 .content {
     display: flex;
     flex-direction: column;
+    gap: 8px;
 }
 
 .main {
     font-size: 48px;
     color: #f9faf8;
     font-weight: bolder;
+}
+
+.secondary {
+    color: #f9faf8;
+    font-size: 18px;
 }
