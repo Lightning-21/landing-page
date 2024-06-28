@@ -1,4 +1,21 @@
 body {
     display: flex;
     flex-direction: column;
+    padding: 0;
+    margin: 0;
+}
+
+.footer {
+    color: #f9faf8;
+    display: flex;
+    flex-direction: column;
+    background-color: #1f2837;
+}
+
+.top {
+    display: flex;
+}
+
+ul {
+    list-style-type: none;
 }
