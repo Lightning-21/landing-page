@@ -82,7 +82,6 @@ ul {
 .middle {
     display: flex;
     flex-direction: column;
-    padding: 50px 0;
 }
 
 .info {
@@ -90,4 +89,25 @@ ul {
     font-weight: bolder;
     font-size: 36px;
     text-align: center;
+    padding: 25px;
+}
+
+.pics {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding-bottom: 25px;
+}
+
+.image {
+    flex-wrap: wrap;
+    padding: 5px;
+    border: 3px solid #3882f6;
+    border-radius: 10px;
+}
+
+.text {
+    padding: 10px 0;
+    text-align: center;
+    font-size: 18px;
 }
