@@ -70,18 +70,19 @@ ul {
     border: #3882f6;
     border-radius: 7px;
     transition-duration: 0.4s;
-    width: 80px;
+    width: 90px;
 }
 
 .first:hover {
     background-color: #f9faf8;
     color: #3882f6;
-    cursor: wait;
+    cursor: pointer;
 }
 
 .middle {
     display: flex;
     flex-direction: column;
+
 }
 
 .info {
@@ -96,7 +97,7 @@ ul {
     display: flex;
     justify-content: center;
     gap: 10px;
-    padding-bottom: 25px;
+    padding-bottom: 50px;
 }
 
 .image {
@@ -159,6 +160,7 @@ ul {
 }
 
 .second {
+    align-self: center;
     color: #f9faf8;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: bold;
@@ -167,14 +169,14 @@ ul {
     border: solid 2px #f9faf8;
     border-radius: 7px;
     transition-duration: 0.4s;
-    height: 50px;
+    height: 37.5px;
     width: 100px;
 }
 
 .second:hover {
     background-color: #f9faf8;
     color: #3882f6;
-    cursor: wait;
+    cursor: pointer;
 }
 
 .footer {
