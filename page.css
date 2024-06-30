@@ -172,3 +172,8 @@ ul {
     color: #3882f6;
     cursor: wait;
 }
+
+.footer {
+    padding: 25px;
+    text-align: center;
+}
